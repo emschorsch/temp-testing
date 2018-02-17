@@ -60,7 +60,6 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
     install_requires=[
         'tensorflow',
-        'collections',
         'six',
     ],
 
