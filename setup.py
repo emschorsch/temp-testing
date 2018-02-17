@@ -1,4 +1,4 @@
-"""Setup for Testing."""
+"""Setup for ML fairness."""
 
 from setuptools import setup, find_packages
 from codecs import open
@@ -21,7 +21,7 @@ setup(
     # There are some restrictions on what makes a valid project name
     # specification here:
     # https://packaging.python.org/specifications/core-metadata/#name
-    name='test_for_emschorsch',  # Required
+    name='ml_fairness',  # Required
 
     # Versions should comply with PEP 440:
     # https://www.python.org/dev/peps/pep-0440/
@@ -36,13 +36,13 @@ setup(
     # This is a one-line description or tagline of what your project does. This
     # corresponds to the "Summary" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#summary
-    description='Simple test',  # Required
+    description='ML Fairness',  # Required
 
     # This should be a valid link to your project's main homepage.
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    url='https://github.com/emschorsch/temp-testing',
+    url='https://github.com/google/ml_fairness',
 
     # You can just specify package directories manually here if your project is
     # simple. Or you can use find_packages().
@@ -50,7 +50,7 @@ setup(
     # Alternatively, if you just want to distribute a single Python file, use
     # the `py_modules` argument instead as follows, which will expect a file
     # called `my_module.py` to exist:
-    packages=['package'],  # Required
+    packages=['ml_fairness'],  # Required
 
     # This field lists other packages that your project depends on to run.
     # Any package you put here will be installed by pip when your project is
